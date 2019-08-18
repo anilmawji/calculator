@@ -37,10 +37,10 @@ public class Controller {
         operator = 0;
     }
 
-	/*
-	 * Loop through all 9 buttons, finding the corresponding button that caused the event
-	 * Append the output field with the numeric value of that button
-	 */
+   /*
+    * Loop through all 9 buttons, finding the corresponding button that caused the event
+    * Append the output field with the numeric value of that button
+    */
     @FXML
     private void numpad(ActionEvent e) {
         for (int i = -1; i <= 9; i++) {
