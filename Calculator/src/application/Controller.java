@@ -22,8 +22,9 @@ public class Controller {
     private void delete() {
     	int length = output.getText().length();
         if (!start && length > 0) {
-            if (output.getText().endsWith("."))
+            if (output.getText().endsWith(".")) {
             	point = 0;
+	    }
             output.setText(output.getText().substring(0, length - 1));
         }
     }
@@ -46,8 +47,9 @@ public class Controller {
         for (int i = -1; i <= 9; i++) {
         	String num = Integer.toString(i);
             if (((Button) e.getSource()).getText().equals(num)) {
-                if (output.getText().equals("0"))
+                if (output.getText().equals("0")) {
                 	output.setText("");
+		}
                 output.appendText(num);
                 start = false;
             }
