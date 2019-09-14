@@ -94,10 +94,10 @@ public class Controller {
     private double calculate(int operator) {
         double num2 = Double.parseDouble(output.getText());
         switch (operator) {
-            case 1:  return num1 + num2;
-            case 2:  return num1 - num2;
-            case 3:  return num1 * num2;
-            case 4:  return num1 / num2;
+            case 1: return num1 + num2;
+            case 2: return num1 - num2;
+            case 3: return num1 * num2;
+            case 4: return num1 / num2;
         }
 	return 0;
     }
